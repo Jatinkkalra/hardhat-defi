@@ -1,0 +1,36 @@
+Setup:
+
+    - `yarn add --dev hardhat`    // creates node_modules, package.json and yarn.lock files
+    - `yarn hardhat`    empty hardhat.config.js    // creates hardhat.config.js
+    - `yarn add --dev @nomiclabs/hardhat-ethers@npm:hardhat-deploy-ethers ethers @nomiclabs/hardhat-etherscan @nomiclabs/hardhat-waffle chai ethereum-waffle hardhat hardhat-contract-sizer hardhat-deploy hardhat-gas-reporter prettier prettier-plugin-solidity solhint solidity-coverage dotenv`
+    - `yarn add --dev @nomiclabs/hardhat-ethers@npm:hardhat-deploy-ethers@^0.3.0-beta.13`
+
+Run Commands:
+    - `yarn hardhat run scripts/aaveBorrow.js`
+    - `yarn hardhat compile`    // Eg: when hardhat.config.js is updated [solidity version in this case]
+
+Create:
+    - If required: ".prettier" and ".prettierignore" 
+    - "README.md"
+    - "scripts" folder
+        - "aaveBorrow.js"
+        - "getWETH.js"
+    - "contracts" folder
+        - "interfaces" folder
+            - "iWeth.sol"
+        - "ILendingPoolAddressesProvider.sol" file
+    - ".gitignore" file
+
+    - ETH Mainnet Forked API Key via Alchemy.       // To be put in .env file
+
+
+Notes:
+    - Not creating a smart contract ourselves. Just learning to how to interact with protocols.
+    - Protocol treats everything as an ERC20 token
+    - Interfaces naming convention: "iInterface". For example" "iWeth"
+    - Solidity version: "0.4.19" in package.json
+    
+    - Another testing format: Mainnet Forking.
+        - Fork the mainnet and run a local hardhat node pretending to be a mainnet node.
+        Pros: Quick; Easy; Resembles what's on mainnet
+        Cons: We need an API; Some contracts are complex to work with
