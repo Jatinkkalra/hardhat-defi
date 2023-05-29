@@ -213,6 +213,48 @@
       "artifacts": [
         "IERC20"
       ]
+    },
+    "C:\\Users\\Asus\\Jatin's Secure Folder\\No\\New Skills\\Coding Resources\\VSCODE Workspaces\\hardhat-defi\\contracts\\interfaces\\AggregatorV3Interface.sol": {
+      "lastModificationDate": 1685374846168,
+      "contentHash": "0376633c9be688da1c2b7ae385c397b8",
+      "sourceName": "contracts/interfaces/AggregatorV3Interface.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "AggregatorV3Interface"
+      ]
     }
   }
 }
