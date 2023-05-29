@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "C:\\Users\\Asus\\Jatin's Secure Folder\\No\\New Skills\\Coding Resources\\VSCODE Workspaces\\hardhat-defi\\contracts\\interfaces\\IWeth.sol": {
-      "lastModificationDate": 1685222228992,
-      "contentHash": "f714e75fde74a0e9170f122c64b4c5c8",
+      "lastModificationDate": 1685278981062,
+      "contentHash": "25181d2bf222bab498f1958d74fb3508",
       "sourceName": "contracts/interfaces/IWeth.sol",
       "solcConfig": {
         "version": "0.4.19",
@@ -44,8 +44,8 @@
       ]
     },
     "C:\\Users\\Asus\\Jatin's Secure Folder\\No\\New Skills\\Coding Resources\\VSCODE Workspaces\\hardhat-defi\\contracts\\interfaces\\ILendingPool.sol": {
-      "lastModificationDate": 1685223792383,
-      "contentHash": "e8878b38feecaada3b5c484e710f1899",
+      "lastModificationDate": 1685278989914,
+      "contentHash": "7741558583c038b61ac250eea3dce222",
       "sourceName": "contracts/interfaces/ILendingPool.sol",
       "solcConfig": {
         "version": "0.6.12",
@@ -170,6 +170,48 @@
       ],
       "artifacts": [
         "DataTypes"
+      ]
+    },
+    "C:\\Users\\Asus\\Jatin's Secure Folder\\No\\New Skills\\Coding Resources\\VSCODE Workspaces\\hardhat-defi\\contracts\\interfaces\\IERC20.sol": {
+      "lastModificationDate": 1685278954385,
+      "contentHash": "c93abe2e0078887f2a36234b140b220f",
+      "sourceName": "contracts/interfaces/IERC20.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.6"
+      ],
+      "artifacts": [
+        "IERC20"
       ]
     }
   }

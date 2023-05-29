@@ -17,8 +17,10 @@ Create:
         - "getWETH.js"
     - "contracts" folder
         - "interfaces" folder
-            - "iWeth.sol"
-        - "ILendingPoolAddressesProvider.sol" file
+            - "iWeth.sol" file
+            - "ILendingPoolAddressesProvider.sol" file
+            - "IERC20.ol" file
+            - "AggregatorV3Interface.sol" file
     - ".gitignore" file
 
     - ETH Mainnet Forked API Key via Alchemy.       // To be put in .env file

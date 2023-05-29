@@ -19,6 +19,6 @@ async function getWeth() {
   console.log(`Got ${WethBalance.toString()} Weth`);
 }
 
-module.exports = { getWeth };
+module.exports = { getWeth, AMOUNT };
 
 // No main() boiler code at the end as getWeth is being created just as a module, and being imported in ".aaveBorrow.js"
